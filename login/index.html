@@ -5,11 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>NewMeeting</title>
+  <title>New Meeting</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <body>
+  <div class="title_bar">
+    <img src="logo.png" alt="" width="10%" height="10%">
+    <h4>새로운 만남</h3>
+      <h2>New Face</h2>
+  </div>
 
+  <div class="container">
+    <div class="form">
+      <p>아이디</p>
+      <input type="text" name="id" id="id" placeholder="아이디를 입력해주세요" autocomplete="off">
+    </div>
+    <div class="form">
+      <p>비밀번호</p>
+      <input type="password" name="pw" id="pw" placeholder="비밀번호를 입력해주세요" autocomplete="off">
+    </div>
+    <div class="btn_form">
+      <button class="button">로그인</button>
+    </div>
+    <a class="to-sign-up" onclick="alert('어쩌라고');">아직 회원이 아니신가요?</p>
 </body>
+
+<script src="index.js"></script>
 
 </html>
