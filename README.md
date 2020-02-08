@@ -19,4 +19,4 @@
 
 ## 관련 글
 - [네이버 블로그](https://blog.naver.com/chlwlsdn0828/221779100715)
-- [서버 코드](https://github.com/Choi-Jinwoo/NewMeeting_Server)
+- [서버 코드](https://github.com/Choi-Jinwoo/NewFace_Server)
